@@ -1,0 +1,62 @@
+.profile-img{
+    border-radius: 50%;
+}
+h2{
+   color: aqua;
+}
+h1{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pb-2{
+    color: brown;
+}
+.box1{
+    color: brown;
+}
+.box4{
+    color: green;
+}
+.bottom-container{
+    background-color: aquamarine;
+}
+
+/* Make the image responsive across devices */
+.responsive-image {
+    width: 100%; /* Takes full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes extra spaces around the image */
+    object-fit: cover; /* Ensures the image covers its container */
+  }
+  
+  /* Add padding or margins to the section if needed */
+  .responsive-image-section {
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /* Ensures section never overflows */
+  }
+  
+  /* Optional: Specific styles for larger screens (e.g., desktops) */
+  @media (min-width: 992px) {
+    .responsive-image {
+      max-width: 100%; /* Ensures the image doesn't stretch more than its natural size */
+      height: auto; /* Keeps the image proportionate */
+    }
+  }
+  
+  /* Optional: Specific styles for mobile screens */
+  @media (max-width: 576px) {
+    .responsive-image {
+      width: 100%; /* Full width on smaller screens */
+      height: auto;
+    }
+  }
+  
+
+  
+  
+  
